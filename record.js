@@ -116,8 +116,8 @@ function createRecordingScreen(title) {
                 createFinishScreen("javascript:" +
                     "(function(){" +
                         "s=document.createElement('script');" +
-                        "s.id='github-com-zachdeibert-webpage-macros-record-js';" +
-                        "s.src='https://cdn.rawgit.com/zachdeibert/webpage-macros/master/record.js';" +
+                        "s.id='github-com-zachdeibert-webpage-macros-play-js';" +
+                        "s.src='https://cdn.rawgit.com/zachdeibert/webpage-macros/master/play.js';" +
                         "s.onload=function(){" +
                             "playback(" + JSON.stringify(recordData) + ")" +
                         "};" +
