@@ -39,6 +39,9 @@ function createFinishScreen(url, title) {
             a.innerText = title;
             a.classList.add("btn");
             a.style.width = "100%";
+            a.onclick = function() {
+                return false;
+            };
             panel.appendChild(a);
     document.body.appendChild(shade);
 }
